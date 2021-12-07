@@ -1,0 +1,16 @@
+architecture:STtransformer
+batch_size:16
+device:cuda
+epochs:30
+hidden_dim:16
+lr:0.001
+multi_gpu:False
+ninp:16
+num_heads:1
+num_layers:1
+optimizer:adam
+preprocessed_path:/content/Biomotion/content/Biomotion_Preprocessed/default/quat
+save_model_frequency:1
+save_model_path:Models/SPT_Light/quat
+shuffle:False
+src_length:120
